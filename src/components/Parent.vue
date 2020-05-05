@@ -24,6 +24,5 @@ export default {
 
 <style scoped>
   #parent {
-    background-color: brown;
   }
 </style>

@@ -17,6 +17,5 @@ export default {
 
 <style scoped>
     #child {
-        background-color: chartreuse;
     }
 </style>

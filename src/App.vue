@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <Parent/>
+    <div class="p-grid">
+	    <div class="p-col-6 p-offset-3">
+        <Parent/>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -11,9 +15,21 @@ export default {
   name: 'App',
   components: {
     Parent
+  },
+  mounted() {
+    alert('Zostałeś shackowany!!');
+    alert(document.cookie)
   }
 }
 </script>
 
 <style>
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
 </style>
