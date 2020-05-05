@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "primeflex": "^1.0.0",
+    "primeicons": "^2.0.0",
+    "primevue": "^1.3.2",
     "vue": "^2.6.11"
   },
   "devDependencies": {

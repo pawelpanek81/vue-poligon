@@ -1,28 +1,35 @@
 <template>
-  <div id="parent">
-    <h1>{{ msg }}</h1>
-    <child-foo></child-foo>
+  <div class="border">
+    <span>Parent</span>
+    <child1 :msg="wiadomosc" @przekaz="alertFoo($event)"></child1>
   </div>
 </template>
 
 <script>
-import ChildComponent from './Child.vue'
+import Child1 from './Child1.vue'
 
 export default {
-  name: 'HelloWorld',
+  name: 'Parent',
   components: {
-    childFoo: ChildComponent
+    Child1
   },
   data() {
     return {
-      msg: 'Foo bar message'
+      wiadomosc: 'Zrób to'
     }
-  
+  },
+  methods: {  
+    alertFoo(msg) {
+      alert(msg);
+    }
   }
 }
 </script>
 
-<style scoped>
-  #parent {
+<style>
+  .border {
+    border-style: solid;
+    border-width: 1px;
+    margin: 30px;
   }
 </style>

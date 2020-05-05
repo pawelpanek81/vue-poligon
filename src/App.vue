@@ -17,8 +17,6 @@ export default {
     Parent
   },
   mounted() {
-    alert('Zostałeś shackowany!!');
-    alert(document.cookie)
   }
 }
 </script>
@@ -31,5 +29,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  
+  background-color: rgb(3, 103, 112);
+  color: white;
+  font-size: 16px;
 }
 </style>
