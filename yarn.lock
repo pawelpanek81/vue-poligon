@@ -1686,7 +1686,7 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
-debug@^3.0.0, debug@^3.1.1, debug@^3.2.5:
+debug@^3.1.1, debug@^3.2.5:
   version "3.2.6"
   resolved "https://registry.npm.taobao.org/debug/download/debug-3.2.6.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdebug%2Fdownload%2Fdebug-3.2.6.tgz#e83d17de16d8a7efb7717edbe5fb10135eee629b"
   integrity sha1-6D0X3hbYp++3cX7b5fsQE17uYps=
@@ -2120,9 +2120,9 @@ event-pubsub@4.3.0:
   integrity sha1-9o2Ba8KfHsAsU53FjI3UDOcss24=
 
 eventemitter3@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npm.taobao.org/eventemitter3/download/eventemitter3-4.0.0.tgz#d65176163887ee59f386d64c82610b696a4a74eb"
-  integrity sha1-1lF2FjiH7lnzhtZMgmELaWpKdOs=
+  version "4.0.7"
+  resolved "https://registry.yarnpkg.com/eventemitter3/-/eventemitter3-4.0.7.tgz#2de9b68f6528d5644ef5c59526a1b4a07306169f"
+  integrity sha512-8guHBZCwKnFhYdHr2ysuRWErTwhoN2X8XELRlrRwpmfeY2jjuUN4taQMsULKUVo1K4DvZl+0pgfyoysHxvmvEw==
 
 events@^3.0.0:
   version "3.1.0"
@@ -2397,11 +2397,9 @@ flush-write-stream@^1.0.0:
     readable-stream "^2.3.6"
 
 follow-redirects@^1.0.0:
-  version "1.11.0"
-  resolved "https://registry.npm.taobao.org/follow-redirects/download/follow-redirects-1.11.0.tgz#afa14f08ba12a52963140fe43212658897bc0ecb"
-  integrity sha1-r6FPCLoSpSljFA/kMhJliJe8Dss=
-  dependencies:
-    debug "^3.0.0"
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
+  integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
 for-in@^1.0.2:
   version "1.0.2"
@@ -2862,9 +2860,9 @@ http-proxy-middleware@0.19.1:
     micromatch "^3.1.10"
 
 http-proxy@^1.17.0:
-  version "1.18.0"
-  resolved "https://registry.npm.taobao.org/http-proxy/download/http-proxy-1.18.0.tgz#dbe55f63e75a347db7f3d99974f2692a314a6a3a"
-  integrity sha1-2+VfY+daNH2389mZdPJpKjFKajo=
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/http-proxy/-/http-proxy-1.18.1.tgz#401541f0534884bbf95260334e72f88ee3976549"
+  integrity sha512-7mz/721AbnJwIVbnaSv1Cz3Am0ZLT/UBwkC92VlxhXv/k/BBQfM2fXElQNC27BVGr0uwUpplYPQM9LnaBMR5NQ==
   dependencies:
     eventemitter3 "^4.0.0"
     follow-redirects "^1.0.0"
@@ -4872,6 +4870,21 @@ pretty-error@^2.0.2:
     renderkid "^2.0.1"
     utila "~0.4"
 
+primeflex@^1.0.0:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/primeflex/-/primeflex-1.3.1.tgz#60eee9d636112b79addd85c173e8637cc9898557"
+  integrity sha512-APU4DNof9nvQ6/6XxdQ8ACjADktsNpO5RjDf6h5B46OcegAL9vaslKepVt8CpJc/5bYZEAwA5hz9mAUhxBgJWA==
+
+primeicons@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/primeicons/-/primeicons-2.0.0.tgz#ec3e5a8d4d04a09309225a5a57deb911e08dc0d3"
+  integrity sha512-GJTCeMSQU8UU1GqbsaDrg/IH+b/vSinJQl52NVpdJ7sShYLZA8Eq6jLF48Ye3N/dQloGrE07i7XsZvxQ9pNbqg==
+
+primevue@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/primevue/-/primevue-1.3.2.tgz#233ff4fa2d9b5af7f9a1fb80ea27b56acc1ffdae"
+  integrity sha512-hxmQBn8e6JvSetnItiEmaHdCiHBB9PBJ63n9sqLFN0hszEWU8u4uTjCCVgSlBb44Jzx+aO9RcJ5GRn5Fe8l96Q==
+
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/process-nextick-args/download/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
@@ -5177,7 +5190,7 @@ require-main-filename@^2.0.0:
 
 requires-port@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
+  resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
 resolve-cwd@^2.0.0:
