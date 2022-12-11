@@ -4872,6 +4872,21 @@ pretty-error@^2.0.2:
     renderkid "^2.0.1"
     utila "~0.4"
 
+primeflex@^1.0.0:
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/primeflex/-/primeflex-1.3.1.tgz#60eee9d636112b79addd85c173e8637cc9898557"
+  integrity sha512-APU4DNof9nvQ6/6XxdQ8ACjADktsNpO5RjDf6h5B46OcegAL9vaslKepVt8CpJc/5bYZEAwA5hz9mAUhxBgJWA==
+
+primeicons@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/primeicons/-/primeicons-2.0.0.tgz#ec3e5a8d4d04a09309225a5a57deb911e08dc0d3"
+  integrity sha512-GJTCeMSQU8UU1GqbsaDrg/IH+b/vSinJQl52NVpdJ7sShYLZA8Eq6jLF48Ye3N/dQloGrE07i7XsZvxQ9pNbqg==
+
+primevue@^1.3.2:
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/primevue/-/primevue-1.3.2.tgz#233ff4fa2d9b5af7f9a1fb80ea27b56acc1ffdae"
+  integrity sha512-hxmQBn8e6JvSetnItiEmaHdCiHBB9PBJ63n9sqLFN0hszEWU8u4uTjCCVgSlBb44Jzx+aO9RcJ5GRn5Fe8l96Q==
+
 process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.npm.taobao.org/process-nextick-args/download/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
@@ -4973,9 +4988,9 @@ qs@6.7.0:
   integrity sha1-QdwaAV49WB8WIXdr4xr7KHapsbw=
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.npm.taobao.org/qs/download/qs-6.5.2.tgz?cache=0&sync_timestamp=1588542788766&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fqs%2Fdownload%2Fqs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha1-yzroBuh0BERYTvFUzo7pjUA/PjY=
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 query-string@^4.1.0:
   version "4.3.4"
